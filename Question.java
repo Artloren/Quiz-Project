@@ -1,4 +1,4 @@
-public abstact class Question implements Comparable<Question> 
+public abstract class Question
 {
-    public abstract int compareTo();
+    public Question (String type, String question, Object answer)
 }

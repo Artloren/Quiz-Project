@@ -1,14 +1,11 @@
 public class NumberQuestion extends Question
 {
-    private String type;
-    private String question;
-    private String answer;
 
-    public NumberQuestion(String questionType, String theQuestion, String questionAnswer)
+    public NumberQuestion(String type, String question, String[] answer)
     {
-      type = questionType;
-      question = theQuestion;
-      answer = questionAnswer;
+      this.type = type;
+      this.question = question;
+      this.answer = answer;
     }
     
     public String getType()

@@ -1,14 +1,9 @@
 public class TextQuestion extends Question
 {
-	private String type;
-	private String question;
-	private String answer;
 	
-	public TextQuestion(String questionType, String theQuestion, String questionAnswer)
+	public TextQuestion(String type, String question, String answer)
 	{
-		type = questionType;
-		question = theQuestion;
-		answer = questionAnswer;
+		super(type, question, answer);
 	}
 	
 	public String getType()
